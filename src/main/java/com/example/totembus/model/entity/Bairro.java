@@ -71,4 +71,13 @@ public class Bairro {
     public int hashCode() {
         return Objects.hash(getId());
     }
+
+    @Override
+    public String toString() {
+        return "Bairro{" +
+                "nome='" + nome + '\'' +
+                ", ruas=" + ruas +
+                ", pontoReferencia=" + pontoReferencia +
+                '}';
+    }
 }
